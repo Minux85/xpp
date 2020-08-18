@@ -1,19 +1,18 @@
 <template>
-  <div id="app">
-    <FooterGuide v-show="$route.meta.showFooter"/>
+  <div id="home">
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Home'
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+#home {
+  font-family: 'Avenir', Helvetica, A‘【rial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
